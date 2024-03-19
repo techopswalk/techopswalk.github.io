@@ -1,0 +1,67 @@
+/* about.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    /* background-color: #303030; */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+h1 {
+    /* color: #bbbbbb; */
+    color: #333;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    /* color: #bbbbbb; */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    /* color: #bbbbbb; */
+    color: #333;
+}
+
+ul {
+    list-style-type: decimal;
+    padding: auto;
+    color: dimgrey;
+}
+ul li { 
+    margin-bottom: 10px; 
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    /* color: #bbbbbb; */
+    color: #333;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

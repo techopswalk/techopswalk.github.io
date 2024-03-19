@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* background-color: #303030; */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('logo.png'); /* Path to your logo image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h1 {
+    /* color: #bbbbbb; */
+    color: #333;
+    margin-top: 30px; /* Shift the title down by 30px */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+    /* color: #bbbbbb; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner section styles */
+.banner-section {
+    background-image: url('../img/banner.png'); /* Path to your banner image */
+    background-size: cover;
+    background-position: center;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1d1d;
+}
+
+footer p {
+    color: #bbbbbb;
+}
+
+.footer-logos {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer-logos li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-logos li img {
+    width: 40px; /* Adjust the size of the logos as needed */
+    height: auto;
+}
