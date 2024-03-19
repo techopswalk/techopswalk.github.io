@@ -29,7 +29,7 @@ Our vision is to create a harmonious synergy between agriculture, music, and hea
 Contributions to TechOpsWalk are highly encouraged and welcomed. If you have valuable insights, tutorials, or resources to share with the community, please consider contributing by submitting a pull request. All contributions will be reviewed and appreciated.
 
 ## Feedback and Suggestions
-We value your feedback and suggestions to improve TechOpsWalk further. If you have any ideas, feature requests, or feedback regarding the website's content or functionality, please don't hesitate to reach out to us. You can contact us via [email](mailto:techopswalk@gmail.com) or through GitHub issues.
+We value your feedback and suggestions to improve TechOpsWalk further. If you have any ideas, feature requests, or feedback regarding the website's content or functionality, please don't hesitate to reach out to us. You can contact us via [Pahuldeep](mailto:pahuldeep100@gmail.com) or through GitHub issues.
 
 ## Support
 For any queries or assistance regarding TechOpsWalk, feel free to contact our support team at [techopswalk@gmail.com](mailto:techopswalk@gmail.com).
