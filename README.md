@@ -34,7 +34,4 @@ We value your feedback and suggestions to improve TechOpsWalk further. If you ha
 ## Support
 For any queries or assistance regarding TechOpsWalk, feel free to contact our support team at [techopswalk@gmail.com](mailto:techopswalk@gmail.com).
 
-## License
-TechOpsWalk is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the content according to the terms specified in the license.
-
 Thank you for visiting TechOpsWalk and being a part of our community!
