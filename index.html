@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to techOpswalk</title>
     <link rel="stylesheet" href="css/index.css">
+    <script>
+        function slideTo(id) {
+            var element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -12,16 +20,116 @@
     </header>
     <nav>
         <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="career.html">Careers</a></li>
+            <li><a href="#" onclick="slideTo('about')">About</a></li>
+            <li><a href="#" onclick="slideTo('contact')">Contact</a></li>
+            <li><a href="#" onclick="slideTo('career')">Careers</a></li>
+            <li><a href="blog.html" onclick="slideTo('blog')">Blogs</a></li>
+
+            <li><a href="music.html" onclick="slideTo('music')">Music</a></li>
+            <li><a href="health.html" onclick="slideTo('health')">Health</a></li>
+            <li><a href="finance.html" onclick="slideTo('finance')">Finance</a></li>
+            <li><a href="agriculture.html" onclick="slideTo('agriculture')">Agriculture</a></li>
+            <li><a href="others.html" onclick="slideTo('others')">Others</a></li>
         </ul>
     </nav>
     <section class="banner-section">
         <div class="banner-text">
-            <p>Welcome to techOpswalk! We are on a mission to redefine innovation across agriculture, music, and health. Explore our website to learn more about our initiatives and how you can get involved.</p>
+            <p>Welcome to techOpswalk! We are on a mission to redefine innovation across sustainable development, music, health, finance, agriculture. Explore our website to learn more about our initiatives and how you can get involved.</p>
         </div>
     </section>
+
+    <section id="about" class="section">
+        <!-- Content for About section -->
+        <header>
+            <h1>About techOpswalk</h1>
+        </header>
+        <section>
+            <h2>Our Mission</h2>
+            <p>At techOpswalk, we are on a mission to redefine the boundaries of innovation across sustainable development, music, health, finance, agriculture related products and services. We believe in harnessing the power of technology and creative thinking to drive positive change and shape the future of these industries.</p>
+            <h2>Our Vision</h2>
+            <p>Our vision is to create a harmonious synergy between sustainable development, music, health, finance, agriculture, leveraging each sector's unique strengths to create innovative solutions that enhance lives and communities worldwide.</p>
+        </section>
+        <section>
+            <h2>What We Do</h2>
+            <ul>
+                <li><strong>Music Services:</strong> Our music division offers a range of services including artist management, event production, and digital distribution, aimed at fostering talent and enriching the music industry.</li>
+                
+                <li><strong>Health Services:</strong> From wellness products to healthcare solutions, we are committed to promoting health and wellness through innovative products and services that empower individuals to live their best lives.</li>
+        
+                <li><strong>Agriculture Solutions:</strong> We develop sustainable agricultural practices and technologies that optimize crop yields, minimize environmental impact, and support local communities.</li>
+                
+                <li><strong>Finance Products:</strong> Our finance division provides a range of financial services tailored to the needs of our clients, including investment management, financial planning, and risk assessment.</li>
+        
+                <li><strong>Sustainable Development:</strong> We are dedicated to promoting sustainable development practices that balance economic growth with environmental conservation and social responsibility, creating a better world for future generations.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Why Choose techOpswalk</h2>
+            <ul>
+                <li><strong>Innovation:</strong> We are at the forefront of innovation, constantly exploring new ideas and technologies to push the boundaries of what's possible.</li>
+                
+                <li><strong>Collaboration:</strong> We believe in the power of collaboration and actively seek partnerships with like-minded organizations and individuals to amplify our impact.</li>
+                
+                <li><strong>Impact:</strong> Our solutions are designed to make a meaningful impact, whether it's improving agricultural sustainability, supporting emerging artists, or enhancing access to healthcare.</li>
+            </ul>
+        </section>
+
+        <section>
+            <p>Join us on our journey to revolutionize agriculture, music, and health. <a href="#" onclick="slideTo('contact')">Contact us</a> today to learn more about our initiatives and how you can get involved.</p>
+
+        </section>
+        
+    </section>
+
+    <section id="contact" class="section">
+        <!-- Content for Contact section -->
+        <header>
+            <h1>Contact techOpswalk</h1>
+        </header>
+        <section>
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Mobile Number:</strong> 7696221709</li>
+                <li><strong>Map Address:</strong> House no 1, Gobindbagh, near SM school, Patiala, 147001</li>
+                <li><strong>Email:</strong> <a href="mailto:techopswalk@gmail.com">techopswalk@gmail.com</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Questions or Inquiries</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </section>
+
+    <section id="career" class="section">
+        <!-- Content for Career section -->
+        <header>
+            <h1>Careers at techOpswalk</h1>
+        </header>
+        <section class="job-listing">
+            <h2 class="job-title">Software Engineer</h2>
+            <p class="job-description">A skilled software engineer with web development experience and passion for creating impactful software products is sought to contribute to innovative solutions</p>
+            <a href="#" class="apply-button">Apply Now</a>
+        </section>
+        <section class="job-listing">
+            <h2 class="job-title">Marketing Specialist</h2>
+            <p class="job-description">A creative and strategic marketing specialist is needed to promote products and services in agriculture, music, and health industries, with strong communication and digital marketing experience.</p>
+            <a href="#" class="apply-button">Apply Now</a>
+        </section>
+        <section class="job-listing">
+            <h2 class="job-title">Data Scientist</h2>
+            <p class="job-description">A data scientist is needed to analyze complex data sets, generate actionable insights, and drive decision-making across various projects, ideally with expertise in statistical analysis, machine learning, and data visualization.</p>
+            <a href="#" class="apply-button">Apply Now</a>
+        </section>
+    </section>
+
     <footer>
         <ul class="footer-logos">
             <li><a href="https://www.linkedin.com/company/techopswalk/posts/?viewAsMember=true"><img src="img/linkedin_logo.png" alt="LinkedIn"></a></li>
