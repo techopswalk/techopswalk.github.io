@@ -1,90 +1,247 @@
-/* styles.css */
-
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    /* background-color: #303030; */
-}
-
-/* Header styles */
-header {
-    text-align: center;
-    padding: 20px;
-    background-image: url('logo.png'); /* Path to your logo image */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-h1 {
-    /* color: #bbbbbb; */
-    color: #333;
-    margin-top: 30px; /* Shift the title down by 30px */
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    margin: 20px 0;
-    /* color: #bbbbbb; */
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Banner section styles */
+/* Modernized styles */
 .banner-section {
     background-image: url('../img/banner.png'); /* Path to your banner image */
     background-size: cover;
     background-position: center;
+    text-wrap: inherit;
     color: #bbbbbb;
     text-align: center;
     padding: 100px 0;
+    transition: background-color 0.2s ease; /* Add smooth transition effect */
+    filter: blur(0.1px); 
+}
+.banner-section:hover {
+    background-color: #f0f0f0; 
+    filter: brightness(150%);
 }
 
-.banner-text {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Footer styles */
-footer {
+header {
     text-align: center;
     padding: 20px;
-    background-color: #1d1d1d;
+    background-image: url('logo.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #f4f4f4;
+    border-radius: 10px;
 }
 
-footer p {
-    color: #bbbbbb;
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Modernized styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a,
+.apply-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease; 
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Darken the background on hover */
+}
+
+.section {
+    background-image: linear-gradient(to bottom right, #f0f0f0, #ddd); /*Test color: #f5f5f5, #333*/
+    color: #1d1d1d; 
+}
+
+section.banner-section p {
+    font-size: 1.2rem;
+    color: #777; /* Slightly lighter text color */
+}
+
+section.section {
+    padding: 2rem;
+    background-color: #fff; /* White background for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    border-radius: 8px;
+}
+
+section h1, section h2 {
+    color: #333;
+    margin-bottom: 1rem; /* Add spacing below headings */
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+
+
+/* Form styles */
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modernized job listing styles */
+.job-listing {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.job-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.job-description {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-top: 10px; /* Add some space between button and text */
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Modernized footer styles */
+footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .footer-logos {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .footer-logos li {
+    margin: 0 1rem;
     display: inline;
-    margin-right: 20px;
 }
 
-.footer-logos li img {
-    width: 40px; /* Adjust the size of the logos as needed */
+.footer-logos img {
+
+    /* content: url('logo.svg'); */
+    width: 40px;
     height: auto;
+    transition: transform 0.2s ease;
+}
+
+.footer-logos img:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+
+    .banner-section {
+        padding: 80px 0;
+    }
+
+    .banner-section h1 {
+        /* font-size: 2.5em; */
+        font-size: 2em;
+    }
+
+    .banner-section p {
+        font-size: 1em;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+
+    .section p {
+        font-size: 0.9em;
+    }
 }
